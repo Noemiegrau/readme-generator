@@ -18,42 +18,44 @@ function renderLicenseSection(license) {}
 
 //REUSE THE DATA.TITLE, DATA.ETC
 
-const generateMarkdown = (projectName, github) => {
-    return `
-  # **_Project 1 ${projectName}_**
+const generateMarkdown = (projectTitle, description, languages, installation, usage, contribution, test, license, questions, github, emailAddress) => { return `
+  # **_${projectTitle}_**
 
   ## **_Table of contents_**
   * [Description of the project](#description-of-the-project)
-  * [Technologies used](#technologies-used)
-  * [Mockup](#mockup)
-  * [Link URL to Trello Board](#link-URL-to-Trello-Board)
-  * [Link URL to deployed app on GitHub](#link-URL-to-deployed-app-on-GitHub)
-  * [Link URL to GitHub Repository](#link-URL-to-GitHub-repository)
+  * [Programming Languages](#programming-languages)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Contribution](#contribution)
+  * [Tests](#tests)
+  * [License](#license)
+  * [Questions](#questions)
     
   ## **_Description of the project_**
-  A social website for cats and dogs to find friendship and love.
-  * Index: The front page where you can create a profile or log in. To create a profile, you must provide your species, name, age, a profile photo, and preferences on species and age range. Once you have created your profile or log in, you are redirected to Swipe page.
-    
-  You can click the hamburger icon to visit the following pages.
-  * About Us: Introduction to PawPals.
-  * My Profile: View your profile information and match analytics.
-  * Swipe: Swipe through other users' profiles and match with them.
-  * Matches: View all profiles that you have previously matched with.
-  * Contact Us: Submit a form to contact the team at PawPals.
-    
-  ## **_Technologies used_**
+  ${description}
+
+  ## **_Programming Languages_**
   Project is created using:
-  * HTML5
-  * CSS3
-  * JavaScript
-  * Bulma
-  * Hammer.js
-  * jQuery
-  * Pageable
-  * jQuery Modal
+  ${languages}
     
-  ## **_Link URL to GitHub Repository_**
-  https://github.com/${github}/${projectName}
+  ## **_Installation_**
+  ${installation}
+
+  ## **_Usage_**
+  ${usage}
+
+  ## **_Contribution_**
+  ${contribution}
+
+  ## **_Tests_**
+  ${test}
+
+  ## **_License_**
+  ${license}
+
+  ## **_Questions_**
+  Don't hesitate to visit [my GitHub](https://github.com/${github})
+  or reach me on my [email address](mailto:${emailAddress}) for additional questions.
   `;
 };
 
