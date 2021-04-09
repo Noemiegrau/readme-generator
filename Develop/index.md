@@ -2,7 +2,7 @@
   # **_Noemie_**
 
   ## **_Description of the project_**
-  this is a professional readme generator
+  This project generates a professional readme
 
   ## **_Table of contents_**
   * [Description](#description)
@@ -14,21 +14,21 @@
   * [Questions](#questions)
     
   ## **_Installation_**
-  step 1: bonjour, step 2: voila
+  step1 step2
 
   ## **_Usage_**
-  Usage is easy
+  usage is easy
 
   ## **_Contributing_**
   only me
 
   ## **_Tests_**
-  Test 1, test 2
+  test1 test2
 
   ## **_License_**
-  GPLv3
+  
 
   ## **_Questions_**
-  Don't hesitate to visit [my GitHub](https://github.com/Noemiegrau)
-  or reach me on my [email address](mailto:https://github.com/Noemiegrau/readme-generator) for additional questions.
+  Don't hesitate to visit [my GitHub](https://github.com/Noemie)
+  or reach me on my [email address](mailto:noemiegrau@outlook.fr) for additional questions.
   
