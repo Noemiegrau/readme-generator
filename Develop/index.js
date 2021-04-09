@@ -11,7 +11,8 @@ const generateMarkdown = require('./generateMarkdown');
 // ];
 
 // TODO: Create an array of questions for user input
-const questions = [
+const questions = portfolioData => {
+    return inquirer.prompt([
     {
      type: 'input',
      name: 'projectTitle',
@@ -30,7 +31,7 @@ const questions = [
      name: 'description',
      message: 'Provide a description of the project (Required)',
      validate : descriptionInput => {
-        if (projectTitleInput) {
+        if (descriptionInput) {
             return true;
         } else {
             console.log('You need to enter a project description!');
@@ -93,7 +94,7 @@ const questions = [
     {
      type: 'checkbox',
      name: 'license',
-     message: 'Select the license you use for this project.',
+     message: 'Select the license(s) you use for this project. You can selected multiple licenses if needed.',
      choices: ['MIT', 'GPLv2', 'GPLv3', 'mpl-2.0', 'BSD', 'mpl-2.0', 'afl-3.0', 'Apache License 2.0'], 
     },
     {
@@ -122,18 +123,21 @@ const questions = [
         }
      }  
     }
-];
+    ])
+};
 
 // TODO: Create a function to write README file
 // function writeToFile(fileName, data) {}
+questions()
+    .then(portfolioData => {
+        const pageMd = generateMarkdown(portfolioData);
 
-// const pageMd = generateMarkdown();
-// const pageMd = generateMarkdown(data);
-
-fs.writeFile('index.md', generateMarkdown(), err => {
-    if (err) throw new Error(err);
-    console.log('Page created! Check out index.html in this directory to see it!');
-});
+        fs.writeFile('index.md', pageMd, err => {
+            if (err) throw new Error(err);
+            
+            console.log('Page created! Check out index.html in this directory to see it!');
+        });
+    });
 
 // TODO: Create a function to initialize app
 function init() {};

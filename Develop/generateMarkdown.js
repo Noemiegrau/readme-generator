@@ -17,12 +17,13 @@ function renderLicenseSection(license) {}
 // }
 
 //REUSE THE DATA.TITLE, DATA.ETC
-
-const generateMarkdown = (projectTitle, description, installation, usage, contributing, tests, license, github, emailAddress) => { return `
-  # **_${projectTitle}_**
+module.exports = templateData => {
+  console.log(templateData);
+  return `
+  # **_${templateData.projectTitle}_**
 
   ## **_Description of the project_**
-  ${description}
+  ${templateData.description}
 
   ## **_Table of contents_**
   * [Description](#description)
@@ -34,24 +35,22 @@ const generateMarkdown = (projectTitle, description, installation, usage, contri
   * [Questions](#questions)
     
   ## **_Installation_**
-  ${installation}
+  ${templateData.installation}
 
   ## **_Usage_**
-  ${usage}
+  ${templateData.usage}
 
   ## **_Contributing_**
-  ${contributing}
+  ${templateData.contributing}
 
   ## **_Tests_**
-  ${tests}
+  ${templateData.tests}
 
   ## **_License_**
-  ${license}
+  ${templateData.license}
 
   ## **_Questions_**
-  Don't hesitate to visit [my GitHub](https://github.com/${github})
-  or reach me on my [email address](mailto:${emailAddress}) for additional questions.
+  Don't hesitate to visit [my GitHub](https://github.com/${templateData.github})
+  or reach me on my [email address](mailto:${templateData.emailAddress}) for additional questions.
   `;
 };
-
-module.exports = generateMarkdown;

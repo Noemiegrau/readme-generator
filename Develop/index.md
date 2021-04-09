@@ -1,8 +1,8 @@
 
-  # **_undefined_**
+  # **_Noemie_**
 
   ## **_Description of the project_**
-  undefined
+  this is a professional readme generator
 
   ## **_Table of contents_**
   * [Description](#description)
@@ -14,21 +14,21 @@
   * [Questions](#questions)
     
   ## **_Installation_**
-  undefined
+  step 1: bonjour, step 2: voila
 
   ## **_Usage_**
-  undefined
+  Usage is easy
 
   ## **_Contributing_**
-  undefined
+  only me
 
   ## **_Tests_**
-  undefined
+  Test 1, test 2
 
   ## **_License_**
-  undefined
+  GPLv3
 
   ## **_Questions_**
-  Don't hesitate to visit [my GitHub](https://github.com/undefined)
-  or reach me on my [email address](mailto:undefined) for additional questions.
+  Don't hesitate to visit [my GitHub](https://github.com/Noemiegrau)
+  or reach me on my [email address](mailto:https://github.com/Noemiegrau/readme-generator) for additional questions.
   
