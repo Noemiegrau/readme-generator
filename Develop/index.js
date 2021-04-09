@@ -93,16 +93,8 @@ const questions = [
     {
      type: 'checkbox',
      name: 'license',
-     message: 'Select the license you use for this project. (Required)',
-     choices: ['MIT', 'GPLv2', 'GPLv3', 'mpl-2.0', 'BSD', 'mpl-2.0', 'afl-3.0', 'Apache License 2.0'],
-    //  validate : licenseInput => {
-    //     if (licenseInput) {
-    //         return true;
-    //     } else {
-    //         console.log('You need to enter license information!');
-    //         return false;
-    //     }
-    //  }  
+     message: 'Select the license you use for this project.',
+     choices: ['MIT', 'GPLv2', 'GPLv3', 'mpl-2.0', 'BSD', 'mpl-2.0', 'afl-3.0', 'Apache License 2.0'], 
     },
     {
      type: 'input',
