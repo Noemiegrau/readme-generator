@@ -93,7 +93,7 @@ const questions = [
     {
      type: 'checkbox',
      name: 'license',
-     message: 'Provide tests for your application. Then provide examples on how to run them. (Required)',
+     message: 'Select the license you use for this project. (Required)',
      choices: ['MIT', 'GPLv2', 'GPLv3', 'mpl-2.0', 'BSD', 'mpl-2.0', 'afl-3.0', 'Apache License 2.0'],
     //  validate : licenseInput => {
     //     if (licenseInput) {
@@ -105,7 +105,30 @@ const questions = [
     //  }  
     },
     {
-
+     type: 'input',
+     name: 'github',
+     message: 'Enter your GitHub Username. (Required)',
+     validate : githubInput => {
+        if (githubInput) {
+            return true;
+        } else {
+            console.log('Please enter your GitHub username!');
+            return false;
+        }
+     }  
+    },
+    {
+     type: 'input',
+     name: 'emailAddress',
+     message: 'Enter your email address. (Required)',
+     validate : emailAddressInput => {
+        if (emailAddressInput) {
+            return true;
+        } else {
+            console.log('Please enter your email address!');
+            return false;
+        }
+     }  
     }
 ];
 
