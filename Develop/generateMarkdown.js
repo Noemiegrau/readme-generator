@@ -18,25 +18,20 @@ function renderLicenseSection(license) {}
 
 //REUSE THE DATA.TITLE, DATA.ETC
 
-const generateMarkdown = (projectTitle, description, languages, installation, usage, contribution, test, license, questions, github, emailAddress) => { return `
+const generateMarkdown = (projectTitle, description, installation, usage, contributing, tests, license, github, emailAddress) => { return `
   # **_${projectTitle}_**
 
-  ## **_Table of contents_**
-  * [Description of the project](#description-of-the-project)
-  * [Programming Languages](#programming-languages)
-  * [Installation](#installation)
-  * [Usage](#usage)
-  * [Contribution](#contribution)
-  * [Tests](#tests)
-  * [License](#license)
-  * [Questions](#questions)
-    
   ## **_Description of the project_**
   ${description}
 
-  ## **_Programming Languages_**
-  Project is created using:
-  ${languages}
+  ## **_Table of contents_**
+  * [Description](#description)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [License](#license)
+  * [Questions](#questions)
     
   ## **_Installation_**
   ${installation}
@@ -44,11 +39,11 @@ const generateMarkdown = (projectTitle, description, languages, installation, us
   ## **_Usage_**
   ${usage}
 
-  ## **_Contribution_**
-  ${contribution}
+  ## **_Contributing_**
+  ${contributing}
 
   ## **_Tests_**
-  ${test}
+  ${tests}
 
   ## **_License_**
   ${license}

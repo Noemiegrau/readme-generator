@@ -1,22 +1,17 @@
 
   # **_undefined_**
 
-  ## **_Table of contents_**
-  * [Description of the project](#description-of-the-project)
-  * [Programming Languages](#programming-languages)
-  * [Installation](#installation)
-  * [Usage](#usage)
-  * [Contribution](#contribution)
-  * [Tests](#tests)
-  * [License](#license)
-  * [Questions](#questions)
-    
   ## **_Description of the project_**
   undefined
 
-  ## **_Programming Languages_**
-  Project is created using:
-  undefined
+  ## **_Table of contents_**
+  * [Description](#description)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [License](#license)
+  * [Questions](#questions)
     
   ## **_Installation_**
   undefined
@@ -24,7 +19,7 @@
   ## **_Usage_**
   undefined
 
-  ## **_Contribution_**
+  ## **_Contributing_**
   undefined
 
   ## **_Tests_**
@@ -34,6 +29,6 @@
   undefined
 
   ## **_Questions_**
-  undefined
-  https://github.com/undefined/undefined
+  Don't hesitate to visit [my GitHub](https://github.com/undefined)
+  or reach me on my [email address](mailto:undefined) for additional questions.
   
