@@ -1,7 +1,7 @@
 // TODO: Include packages needed for this application
 const fs = require('fs');
 const inquirer = require('inquirer');
-const generateMarkdown = require('./generateMarkdown');
+const generateMarkdown = require('./utils/generateMarkdown');
 
 // TODO: Create an array of questions for user input
 const questions = portfolioData => {
@@ -124,7 +124,7 @@ questions()
         const pageMd = generateMarkdown(portfolioData);
 
         // TODO: Create a function to write README file
-        fs.writeFile('REAME.md', pageMd, err => {
+        fs.writeFile('README.md', pageMd, err => {
             if (err) throw new Error(err);
 
             console.log('Page created! Check out index.md in this directory to see it!');
