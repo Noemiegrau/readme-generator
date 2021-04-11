@@ -1,8 +1,10 @@
 
-  # **_g_**
+  # **_gg_**
 
-  ## **_Description of the project_**
-  g
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+  ## **_Description_**
+  gg
 
   ## **_Table of contents_**
   * [Description](#description)
@@ -14,21 +16,25 @@
   * [Questions](#questions)
     
   ## **_Installation_**
-  g
+  gg
 
   ## **_Usage_**
-  g
+  gg
 
   ## **_Contributing_**
-  g
+  gg
 
   ## **_Tests_**
-  g
+  gg
 
-  ## **_License_**
-  
+## **_License_**
+    
+This project is covered under the MIT license.
+Click [here](
+        https://opensource.org/licenses/MIT
+        ) to access more information on the license.
 
   ## **_Questions_**
-  Don't hesitate to visit [my GitHub](https://github.com/g)
-  or reach me on my [email address](mailto:g) for additional questions.
+  Don't hesitate to visit [my GitHub](https://github.com/gg)
+  or reach me on my [email address](mailto:gg) for additional questions.
   
