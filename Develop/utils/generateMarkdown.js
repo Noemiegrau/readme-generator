@@ -89,8 +89,7 @@ Click [here](${renderLicenseLink(license)}) to access more information on the li
 // TODO: Create a function to generate markdown for README
 module.exports = (templateData, license) => {
   console.log(templateData, license);
-  return `
-  # **_${templateData.projectTitle}_**
+  return ` # **_${templateData.projectTitle}_**
 
   ${renderLicenseBadge(templateData.license)}
 
