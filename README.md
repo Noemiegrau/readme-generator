@@ -18,6 +18,10 @@ Project is created using:
 * Nodejs
 
 ## **_Usage_**
+Click on GIF to see higher quality version:
+
+
+Final app should look something like this:
 
 
 ## **_Installation_**
@@ -25,11 +29,15 @@ Here are some guidelines for installing the project on your local machine in ord
 
 1. Since Node.js applications don't have a front end, clone or download the repository to your own local machine and run it from your command line.
 
-2. Make sure that your repo includes a package.json with the required dependencies. You can create one by running ```npm init``` in your command line.
+2. Change the working directory to ```cd Develop/```
 
-3. Make sure to download Inquirer.js by entering "npm install inquirer" in your terminal in the root directory of the project after downloading it onto your local machine. Learn more about this on [npm documentation.](https://www.npmjs.com/package/inquirer)
+3. Then, make sure that your repo includes a package.json with the required dependencies. You can create one by running ```npm init``` in your command line.
 
-4. Enjoy and don't hesitate to contribute!
+4. Make sure to download Inquirer.js by entering "npm install inquirer" in your terminal in the root directory of the project after downloading it onto your local machine. Learn more about this on [npm documentation.](https://www.npmjs.com/package/inquirer).
+
+5. Run ```node index.js``` in your terminal to launch the application, the first question will appear in your terminal. 
+
+6. Enjoy and don't hesitate to contribute!
 
 ## **_Link URL to GitHub Repository_**
 https://github.com/Noemiegrau/readme-generator

@@ -88,7 +88,7 @@ const questions = portfolioData => {
      type: 'checkbox',
      name: 'license',
      message: 'Select the license(s) you use for this project. You can selected multiple licenses if needed.',
-     choices: ['MIT', 'GPLv2', 'GPLv3', 'mpl-2.0', 'BSD', 'mpl-2.0', 'afl-3.0', 'Apache License 2.0'], 
+     choices: ['MIT', 'General Public License 2.0', 'General Public License 3.0', 'Mozilla Public License 2.0', 'BSD 3-Clause License', 'Apache License 2.0'], 
     },
     {
      type: 'input',
