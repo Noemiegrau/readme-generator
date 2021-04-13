@@ -16,7 +16,7 @@ function renderLicenseBadge(license) {
         return `[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)`
       } else if (license == 'Apache License 2.0') {
         return `[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`
-      }
+    }
   }
 };
 
@@ -58,21 +58,6 @@ function renderLicenseLink(license) {
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-// function renderLicenseSection(templateData, license) {
-//   if (!license) {
-//     return '';
-//   } else if (license) {
-//     for (i = 0; i < 1; i++) {
-//       return `
-//       ## **_License_**
-
-//       This project is covered under the ${templateData.license} license.
-//       Click [here](${renderLicenseLink(license)}) for more information on the license.
-//       `
-//     }
-//   }
-// };
-
 function renderLicenseSection(license) {
   if (!license) {
     return '';
