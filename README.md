@@ -22,7 +22,7 @@ Click on GIF to see higher quality version:
 
 
 Final app should look something like this:
-
+<img width="688" alt="Screenshot readme gen" src="https://user-images.githubusercontent.com/78329298/114910819-30f5af80-9dd3-11eb-8061-040896401c1f.png">
 
 ## **_Installation_**
 Here are some guidelines for installing the project on your local machine in order to be able to try it: 
