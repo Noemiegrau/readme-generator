@@ -18,9 +18,8 @@ Project is created using:
 * Nodejs
 
 ## **_Usage_**
-Click on GIF to see higher quality version:
 
-https://user-images.githubusercontent.com/78329298/114923288-7b7e2880-9de1-11eb-9405-19cccbf48a58.mov
+https://user-images.githubusercontent.com/78329298/114923429-ad8f8a80-9de1-11eb-876d-165de0dbd8d0.mov
 
 Final app should look something like this:
 
