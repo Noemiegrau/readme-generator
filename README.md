@@ -20,8 +20,10 @@ Project is created using:
 ## **_Usage_**
 Click on GIF to see higher quality version:
 
+https://user-images.githubusercontent.com/78329298/114923288-7b7e2880-9de1-11eb-9405-19cccbf48a58.mov
 
 Final app should look something like this:
+
 <img width="688" alt="Screenshot readme gen" src="https://user-images.githubusercontent.com/78329298/114910819-30f5af80-9dd3-11eb-8061-040896401c1f.png">
 
 ## **_Installation_**
